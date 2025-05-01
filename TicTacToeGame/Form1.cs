@@ -43,7 +43,7 @@ namespace TicTacToeGame
         }
         else if (turnCount == 9)
         {
-            MessageBox.Show("Draw !", "Game Over");
+            MessageBox.Show("Draw!", "Game Over");
             ResetGame();
         }
     }
